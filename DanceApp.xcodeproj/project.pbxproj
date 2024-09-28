@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A321B5F62BCD3BF20042D8F9 /* GeneratedDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A321B5F52BCD3BF20042D8F9 /* GeneratedDataView.swift */; };
+		A3527CDE2B96F73800295A44 /* Page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3527CDD2B96F73800295A44 /* Page3.swift */; };
+		A3527CE02B970ACC00295A44 /* Page4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3527CDF2B970ACC00295A44 /* Page4.swift */; };
+		A352E06C2BAD668300838C44 /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A352E06B2BAD668300838C44 /* NavigationViewModel.swift */; };
+		A352E0722BAD6CCA00838C44 /* VideoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A352E0712BAD6CCA00838C44 /* VideoPicker.swift */; };
+		A352E0742BAD6E0A00838C44 /* mainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A352E0732BAD6E0A00838C44 /* mainContentView.swift */; };
+		A3AE093B2B93134600E80781 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE093A2B93134600E80781 /* ContentView.swift */; };
+		A3AE093D2B93134700E80781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AE093C2B93134700E80781 /* Assets.xcassets */; };
+		A3AE09402B93134700E80781 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AE093F2B93134700E80781 /* Preview Assets.xcassets */; };
+		A3AE09472B93154500E80781 /* dog.mov in Resources */ = {isa = PBXBuildFile; fileRef = A3AE09462B93154500E80781 /* dog.mov */; };
+		A3AE09492B931C3F00E80781 /* DanceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE09482B931C3F00E80781 /* DanceItem.swift */; };
+		A3AE094B2B93272800E80781 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE094A2B93272800E80781 /* StartPage.swift */; };
+		A3AE094D2B932CC300E80781 /* DanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AE094C2B932CC300E80781 /* DanceApp.swift */; };
+		A3BA48C52BA0097C00E8003C /* balletdancer.mov in Resources */ = {isa = PBXBuildFile; fileRef = A3BA48C42BA0097C00E8003C /* balletdancer.mov */; };
+		A3BA48CD2BA0505800E8003C /* IntentionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BA48CC2BA0505800E8003C /* IntentionPage.swift */; };
+		A3BA48D12BA054B700E8003C /* TravelPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BA48D02BA054B700E8003C /* TravelPage.swift */; };
+		A3C96F1E2BAEDEAE0039F311 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C96F1D2BAEDEAE0039F311 /* Item.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A321B5F52BCD3BF20042D8F9 /* GeneratedDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedDataView.swift; sourceTree = "<group>"; };
+		A3527CDD2B96F73800295A44 /* Page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3.swift; sourceTree = "<group>"; };
+		A3527CDF2B970ACC00295A44 /* Page4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4.swift; sourceTree = "<group>"; };
+		A352E06B2BAD668300838C44 /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		A352E0712BAD6CCA00838C44 /* VideoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPicker.swift; sourceTree = "<group>"; };
+		A352E0732BAD6E0A00838C44 /* mainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainContentView.swift; sourceTree = "<group>"; };
+		A3AE09352B93134600E80781 /* DanceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AE093A2B93134600E80781 /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; };
+		A3AE093C2B93134700E80781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3AE093F2B93134700E80781 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3AE09462B93154500E80781 /* dog.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = dog.mov; path = ../../dog.mov; sourceTree = "<group>"; };
+		A3AE09482B931C3F00E80781 /* DanceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceItem.swift; sourceTree = "<group>"; };
+		A3AE094A2B93272800E80781 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
+		A3AE094C2B932CC300E80781 /* DanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceApp.swift; sourceTree = "<group>"; };
+		A3BA48C42BA0097C00E8003C /* balletdancer.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = balletdancer.mov; path = ../../balletdancer.mov; sourceTree = "<group>"; };
+		A3BA48CC2BA0505800E8003C /* IntentionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentionPage.swift; sourceTree = "<group>"; };
+		A3BA48D02BA054B700E8003C /* TravelPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelPage.swift; sourceTree = "<group>"; };
+		A3C96F1D2BAEDEAE0039F311 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3AE09322B93134600E80781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3AE092C2B93134600E80781 = {
+			isa = PBXGroup;
+			children = (
+				A3AE09372B93134600E80781 /* DanceApp */,
+				A3AE09362B93134600E80781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3AE09362B93134600E80781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE09352B93134600E80781 /* DanceApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3AE09372B93134600E80781 /* DanceApp */ = {
+			isa = PBXGroup;
+			children = (
+				A352E06B2BAD668300838C44 /* NavigationViewModel.swift */,
+				A3C96F1D2BAEDEAE0039F311 /* Item.swift */,
+				A3AE094C2B932CC300E80781 /* DanceApp.swift */,
+				A3AE094A2B93272800E80781 /* StartPage.swift */,
+				A3AE093A2B93134600E80781 /* ContentView.swift */,
+				A352E0732BAD6E0A00838C44 /* mainContentView.swift */,
+				A352E0712BAD6CCA00838C44 /* VideoPicker.swift */,
+				A3527CDD2B96F73800295A44 /* Page3.swift */,
+				A3BA48CC2BA0505800E8003C /* IntentionPage.swift */,
+				A3BA48D02BA054B700E8003C /* TravelPage.swift */,
+				A3527CDF2B970ACC00295A44 /* Page4.swift */,
+				A321B5F52BCD3BF20042D8F9 /* GeneratedDataView.swift */,
+				A3AE09482B931C3F00E80781 /* DanceItem.swift */,
+				A3AE093C2B93134700E80781 /* Assets.xcassets */,
+				A3AE09462B93154500E80781 /* dog.mov */,
+				A3BA48C42BA0097C00E8003C /* balletdancer.mov */,
+				A3AE093E2B93134700E80781 /* Preview Content */,
+			);
+			path = DanceApp;
+			sourceTree = "<group>";
+		};
+		A3AE093E2B93134700E80781 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3AE093F2B93134700E80781 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3AE09342B93134600E80781 /* DanceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AE09432B93134700E80781 /* Build configuration list for PBXNativeTarget "DanceApp" */;
+			buildPhases = (
+				A3AE09312B93134600E80781 /* Sources */,
+				A3AE09322B93134600E80781 /* Frameworks */,
+				A3AE09332B93134600E80781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanceApp;
+			productName = DanceApp;
+			productReference = A3AE09352B93134600E80781 /* DanceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3AE092D2B93134600E80781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A3AE09342B93134600E80781 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A3AE09302B93134600E80781 /* Build configuration list for PBXProject "DanceApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3AE092C2B93134600E80781;
+			productRefGroup = A3AE09362B93134600E80781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3AE09342B93134600E80781 /* DanceApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3AE09332B93134600E80781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE09472B93154500E80781 /* dog.mov in Resources */,
+				A3BA48C52BA0097C00E8003C /* balletdancer.mov in Resources */,
+				A3AE09402B93134700E80781 /* Preview Assets.xcassets in Resources */,
+				A3AE093D2B93134700E80781 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3AE09312B93134600E80781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A352E06C2BAD668300838C44 /* NavigationViewModel.swift in Sources */,
+				A352E0742BAD6E0A00838C44 /* mainContentView.swift in Sources */,
+				A3527CDE2B96F73800295A44 /* Page3.swift in Sources */,
+				A3AE093B2B93134600E80781 /* ContentView.swift in Sources */,
+				A3C96F1E2BAEDEAE0039F311 /* Item.swift in Sources */,
+				A352E0722BAD6CCA00838C44 /* VideoPicker.swift in Sources */,
+				A3AE094D2B932CC300E80781 /* DanceApp.swift in Sources */,
+				A3BA48CD2BA0505800E8003C /* IntentionPage.swift in Sources */,
+				A321B5F62BCD3BF20042D8F9 /* GeneratedDataView.swift in Sources */,
+				A3AE094B2B93272800E80781 /* StartPage.swift in Sources */,
+				A3BA48D12BA054B700E8003C /* TravelPage.swift in Sources */,
+				A3AE09492B931C3F00E80781 /* DanceItem.swift in Sources */,
+				A3527CE02B970ACC00295A44 /* Page4.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3AE09412B93134700E80781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3AE09422B93134700E80781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3AE09442B93134700E80781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DanceApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 43CQ2VNDKW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelia-Krafft.DanceApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3AE09452B93134700E80781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DanceApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 43CQ2VNDKW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Amelia-Krafft.DanceApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3AE09302B93134600E80781 /* Build configuration list for PBXProject "DanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AE09412B93134700E80781 /* Debug */,
+				A3AE09422B93134700E80781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3AE09432B93134700E80781 /* Build configuration list for PBXNativeTarget "DanceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AE09442B93134700E80781 /* Debug */,
+				A3AE09452B93134700E80781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3AE092D2B93134600E80781 /* Project object */;
+}
